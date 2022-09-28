@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Source+Serif+Pro:ital,wght@0,600;1,400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   max-width: 1440px;
@@ -8,6 +14,10 @@ img {
   width: 100%;
 }
 
+p {
+  font-family: 'Crimson Text', serif;
+}
+
 .d-flex {
   display: flex;
 }
@@ -16,8 +26,60 @@ img {
   margin: 0;
 }
 
+.m-1 {
+  margin: calc(1rem * 0.75);
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+/*.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}*/
+
+.w-75 {
+  width: 75%;
+}
+
+/*.w-100 {
+  width: 100%;
+}*/
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important
+}
+
+.mb-4 {
+  margin-bottom: 4rem !important;
+}
+
+.ml-4 {
+  margin-left: 2rem !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  color: purple;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
 .p-0 {
   padding: 0;
+}
+
+.p-1 {
+  padding: calc(1rem * 0.25);
 }
 
 .navegacao-container {
@@ -29,12 +91,20 @@ img {
 .navegacao ul {
   list-style: none;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .text-decoration-none {
   text-decoration: none;
 }
+
+.navegacao li a {
+  color: white;
+}
+
+/*.navegacao li.a:visited {*/
+/*  color: white;*/
+/*}*/
 
 .navegacao li {
   background-color: purple;
@@ -48,4 +118,36 @@ img {
   margin: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+table, th, td {
+  border: 1px solid grey;
+}
+
+th, td {
+  padding: calc(1rem * 0.5);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.rounded-1 {
+  border-radius: calc(1rem * 0.25);
+}
+
+.rounded-2 {
+  border-radius: calc(1rem * 0.5);
+}
+
+.rounded-3 {
+  border-radius: calc(1rem * 0.75);
 }
