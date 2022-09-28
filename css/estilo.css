@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.navegacao-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navegacao ul {
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.navegacao li {
+  background-color: purple;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.8rem;
+
+  flex: 1;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
