@@ -147,8 +147,7 @@ h1 {
 /*  color: white;*/
 /*}*/
 
-.navegacao li {
-  border-radius: 20px;
+.font-helvetica {
   font-family: "Helvetica", sans-serif;
 }
 
@@ -220,6 +219,11 @@ th, td {
 
 .rounded-3 {
   border-radius: calc(1rem * 0.75);
+}
+
+.rounded-20 {
+  border-radius: 20px;
+
 }
 
 .rounded-50 {
