@@ -98,10 +98,14 @@ h1 {
 
 .list-item {
   list-style: none;
- }
+}
 
 .align-items-center {
   align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
 }
 
 .justify-content-space-between {
@@ -147,7 +151,7 @@ h1 {
 /*  color: white;*/
 /*}*/
 
-.font-helvetica {
+.font-helvetica, .card-title {
   font-family: "Helvetica", sans-serif;
 }
 
@@ -159,6 +163,10 @@ h1 {
 .mx-20 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.m-20 {
+  margin: 20px;
 }
 
 .flex-1 {
@@ -303,11 +311,35 @@ th, td {
 
 /*}*/
 
-.border {
+.border-black {
   border-color: black;
+  border-style: solid;
+}
+
+.border-gray {
+  border-color: lightgray;
   border-style: solid;
 }
 
 .border-1 {
   border-width: 1px;
+}
+
+.box-shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.box-shadow-sm:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.box-shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.card {
+  min-width: 5rem;
+  max-width: 10rem;
+  /*margin-top: auto;*/
+  /*margin-bottom: auto;*/
 }
