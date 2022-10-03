@@ -124,8 +124,16 @@ h1 {
   background-color: transparent;
 }
 
+.font-size-3rem {
+  font-size: 3rem;
+}
+
 .text-decoration-none {
   text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .navegacao {
@@ -163,6 +171,18 @@ h1 {
 
 .bg-color-purple {
   background-color: purple;
+}
+
+.hover-bg-color-purple:hover {
+  background-color: rebeccapurple;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .color-white {
