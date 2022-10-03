@@ -8,14 +8,11 @@ body {
   box-sizing: border-box;
   max-width: 1440px;
   margin: 0 auto;
+  font-family: 'Crimson Text', serif;
 }
 
 img {
   width: 100%;
-}
-
-p {
-  font-family: 'Crimson Text', serif;
 }
 
 .d-flex {
